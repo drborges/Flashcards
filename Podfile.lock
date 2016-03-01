@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (3.2.1)
+  - AsyncSwift (1.7.2)
+  - Bond (4.3.0)
+  - CryptoSwift (0.2.3)
+  - Haneke (1.0.2)
+  - R.swift (1.3.0):
+    - R.swift.Library (~> 1.1.0)
+  - R.swift.Library (1.1.0)
+  - Realm (0.98.3):
+    - Realm/Headers (= 0.98.3)
+  - Realm/Headers (0.98.3)
+  - RealmSwift (0.98.3):
+    - Realm (= 0.98.3)
+  - Sleipnir (0.4.0)
+  - SteviaLayout (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - AsyncSwift
+  - Bond (~> 4.0)
+  - CryptoSwift
+  - Haneke (~> 1.0)
+  - R.swift
+  - RealmSwift
+  - Sleipnir
+  - SteviaLayout
+
+SPEC CHECKSUMS:
+  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
+  AsyncSwift: 46a78bceb11f0e5bb52747f740d9692ec78d2d7c
+  Bond: ebe2364b18130690083cbceff036420b21494ae4
+  CryptoSwift: b2bf37b8e7cc6d682ef3365cb966bc5ae5174aa5
+  Haneke: 01454a67322faa0dd9d81fc0f447885044e71521
+  R.swift: 43f8a833dd8cbb4a19908cbfd37fb982e9147899
+  R.swift.Library: 775f3086e07313ed1a1dfddca8418317f5a87397
+  Realm: c6a7d00221a2d5177810a674aebd40c5e0b70b0f
+  RealmSwift: d6ecad6e4c2a645d6ac956c2c7e9efb375f39c31
+  Sleipnir: 35c40dc45c18d26e78f157a5553bf485e49ab6d9
+  SteviaLayout: 1aee5d513216fc2979de7238b6a64b408cf60cd2
+
+COCOAPODS: 0.39.0

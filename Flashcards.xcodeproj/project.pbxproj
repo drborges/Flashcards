@@ -15,6 +15,7 @@
 		36141EC21C84FF0D0079B0ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36141EC01C84FF0D0079B0ED /* LaunchScreen.storyboard */; };
 		36141ECD1C84FF0D0079B0ED /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36141ECC1C84FF0D0079B0ED /* FlashcardsTests.swift */; };
 		36141ED81C84FF0D0079B0ED /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36141ED71C84FF0D0079B0ED /* FlashcardsUITests.swift */; };
+		36E7A32B1C85F633001C6498 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E7A32A1C85F633001C6498 /* R.generated.swift */; };
 		36EBBCBF1C85C4FD003916C1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 36EBBCBE1C85C4FD003916C1 /* .gitignore */; };
 		CB89E2BD4134954D6C76B9F0 /* Pods_Flashcards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27BAD3082B8A19FEAC30B28 /* Pods_Flashcards.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		36141ED31C84FF0D0079B0ED /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36141ED71C84FF0D0079B0ED /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		36141ED91C84FF0D0079B0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E7A32A1C85F633001C6498 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		36EBBCBE1C85C4FD003916C1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		474EF5FDE783C7AE776CE234 /* Pods-FlashcardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashcardsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlashcardsTests/Pods-FlashcardsTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B817CD3AAB4FFC728CC39BD /* Pods-Flashcards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashcards.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flashcards/Pods-Flashcards.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		36141EAB1C84FF0D0079B0ED = {
 			isa = PBXGroup;
 			children = (
+				36E7A32A1C85F633001C6498 /* R.generated.swift */,
 				36EBBCBE1C85C4FD003916C1 /* .gitignore */,
 				36141EB61C84FF0D0079B0ED /* Flashcards */,
 				36141ECB1C84FF0D0079B0ED /* FlashcardsTests */,
@@ -168,6 +171,7 @@
 			buildConfigurationList = 36141EDC1C84FF0D0079B0ED /* Build configuration list for PBXNativeTarget "Flashcards" */;
 			buildPhases = (
 				A4F7C50977A8D7F338C8906F /* Check Pods Manifest.lock */,
+				36E7A3291C85F562001C6498 /* ShellScript */,
 				36141EB01C84FF0D0079B0ED /* Sources */,
 				36141EB11C84FF0D0079B0ED /* Frameworks */,
 				36141EB21C84FF0D0079B0ED /* Resources */,
@@ -294,6 +298,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		36E7A3291C85F562001C6498 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
 		6504D868F3842AA07D4E4FC0 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -393,6 +410,7 @@
 			files = (
 				36141EBA1C84FF0D0079B0ED /* ViewController.swift in Sources */,
 				36141EB81C84FF0D0079B0ED /* AppDelegate.swift in Sources */,
+				36E7A32B1C85F633001C6498 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
